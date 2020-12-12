@@ -99,11 +99,18 @@ export function BrowseContainer({ slides }) {
         <Header.Feature>
           <Header.FeatureCallOut>Watch Joker Now.</Header.FeatureCallOut>
           <Header.Text>
-            "Mark Zuckerberg creates a social networking site, Facebook, with
-            the help of his friend Eduardo Saverin. But soon, a string of lies
-            tears their relationship apart even as Facebook connects people."
+            Forever alone in a crowd, failed comedian Arthur Fleck seeks
+            connection as he walks the streets of Gotham City. Arthur wears two
+            masks -- the one he paints for his day job as a clown, and the guise
+            he projects in a futile attempt to feel like he's part of the world
+            around him. Isolated, bullied and disregarded by society, Fleck
+            begins a slow descent into madness as he transforms into the
+            criminal mastermind known as the Joker.
           </Header.Text>
-          <Header.PlayButton>Play</Header.PlayButton>
+          <Player>
+                <Player.Button />
+                <Player.Video src="/videos/roger.mov" />
+              </Player>
         </Header.Feature>
       </Header>
       <Card.Group>
