@@ -7,7 +7,7 @@ export function FaqsContainer() {
   return (
     <Accordion>
       <Accordion.Title>Frequently Asked Questions</Accordion.Title>
-      <Accordion.Item>
+      
         {faqsData.map((item) => {
           return (
             <Accordion.Item key={item.id}>
@@ -16,7 +16,7 @@ export function FaqsContainer() {
             </Accordion.Item>
           );
         })}
-      </Accordion.Item>
+      
       <OptForm>
         <OptForm.Input placeholder="Email address" />
         <OptForm.Button>Try It Now</OptForm.Button>
